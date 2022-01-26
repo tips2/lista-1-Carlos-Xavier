@@ -1,0 +1,13 @@
+{
+  "method": "backward",
+  "initialData": ["I", "V"],
+  "goal": "O",
+  "rules": [
+    ["P & Q", "O = SIM"],
+    ["W & R", "P = SIM"],
+    ["R & S", "P = SIM"],
+    ["I",     "R = SIM"],
+    ["V",     "S = SIM"],
+    ["V",     "Q = SIM"]
+  ]
+}
